@@ -208,6 +208,8 @@ ja:
       create_agenda: 'アジェンダ作成に成功しました！'
       create_article: '記事作成に成功しました！'
       update_article: '記事更新に成功しました！'
+      delete_agenda: 'アジェンダを削除しました！'
+      non_delete_agenda: 'このアジェンダは削除できません'
       assigned: 'アサインしました！'
       failed_to_assign: 'アサインに失敗しました！'
       email_already_exists: 'すでに同じメールアドレスが登録されています!'
