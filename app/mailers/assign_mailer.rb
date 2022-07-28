@@ -11,4 +11,9 @@ class AssignMailer < ApplicationMailer
     @email = email
     mail to: @email, subject: I18n.t('views.messages.change_owner')
   end
+
+  def agenda_delete_mail(email)
+    @email = email
+    mail to: @email, subject: I18n.t('views.messages.agenda_delete_mail')
+  end
 end
